@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <nav>
-          <ul>
-            <li id="tab-1" class="tab-item active"><a href="#">O mnie</a></li>
-            <li id="tab-2" class="tab-item"><a href="#">Portfolio</a></li>
-            <li id="tab-3" class="tab-item"><a href="#">Kontakt</a></li>
-          </ul>
-        </nav>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Łukasz Świerżewski</h1>
+        <h2>Frontend dev</h2>
+        <a href="#tab-2-content" class="btns">Zobacz projekty</a>
       </div>
+    </section>
+    <div class="container">
       <div class="content">
-        <section id="selected-tab" class="hero">
+        <section id="selected-tab" class="heros">
           <div class="tab-content-item show" id="tab-1-content">
             <img class="hero-img" src="./img/cv.jpg" alt="" />
             <div class="hero-content">
@@ -29,7 +31,6 @@
                 Interesuje się technologiami webowymi. Obecnie uczę się języka
                 Ruby.
               </p>
-              <p class="about--p  about--p__margin">Mój profil na githubie</p>
               <a class="action-btn" href="https://github.com/lukaszswierzewski"
                 >Github</a
               >
