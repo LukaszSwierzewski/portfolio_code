@@ -24,6 +24,6 @@
     "babel-polyfill": "^6.26.0",
     "boostrap": "^2.0.0",
     "jquery": "^3.4.1",
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
